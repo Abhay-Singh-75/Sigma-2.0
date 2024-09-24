@@ -1,0 +1,27 @@
+#dropdown{
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    border: 2px solid black;
+    
+}
+
+
+#dropdown:hover{
+    position: absolute;
+    background-color: aqua;
+    height: 100px;
+    display: block;
+}
+
+.option{
+    display: none;
+}
+
+.option:hover{
+    display: block;
+}
+
+
+
+

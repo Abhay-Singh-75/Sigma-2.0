@@ -1,0 +1,24 @@
+.outer  {
+    border: 3px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 8px;
+    box-shadow:1px 1px 5px black ;
+    transition: all 1s linear 0s;
+}
+
+.outer:hover{
+    box-shadow: 5px 5px 20px yellow;
+}
+
+#man{
+    background-color: aqua;
+}
+
+#woman {
+    background-color: hotpink;
+}
+
+.content{
+    padding-left: 10px;
+}

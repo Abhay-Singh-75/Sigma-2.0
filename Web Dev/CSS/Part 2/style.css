@@ -1,0 +1,93 @@
+*{
+    font-family: 'Lucida Sans';
+    background-color: yellowgreen   ;
+}
+
+
+h1{
+    color: #B92927;
+}
+
+h3{
+    color: #b92927;
+}
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #B92927;
+    color: white;
+}
+
+.upvote{
+    background-color: green;
+    color: beige;
+}
+
+p a{
+    color: purple;
+    background-color: yellow;
+}
+
+div > input{
+    background-color: darkorange;
+    color: beige;
+}
+
+input[type="text"]{
+    color: yellow;
+    background-color: orangered;
+}
+
+input[type="password"]{
+    color: orangered;
+    background-color: yellow;
+}
+
+#myId{
+    color: red;
+}
+
+#myId:active{
+    font-weight: bold;
+    color: brown;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+input[type="radio"]:checked + label{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+input[type="checkbox"]:checked + label{
+    background-color: black;
+    color: white;
+    font-weight:bold ;
+}
+
+/* div:nth-of-type(2n){
+    background-color: orangered !important;
+
+}  */
+
+h1::first-letter{
+    font: 900;
+    color: yellow;
+}
+
+p::first-line{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+p::selection{
+    color:white;
+    background-color: black;
+}

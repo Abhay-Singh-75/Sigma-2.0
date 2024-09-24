@@ -1,0 +1,25 @@
+div{
+    height: 200px;
+    width: 50%;
+    background-color: yellow;
+    border: 5px solid orangered;
+    border-radius: 15px;
+    padding-top:10px ;
+    margin-bottom: 20px;
+    margin-left: 25%;
+}
+
+h1{
+    color: green;
+    border: 3px solid red;
+    width: 260px;
+    border-radius: 5px;
+
+}
+
+button{
+    background-color: yellow;
+    color: orangered;
+    border-radius: 10px;
+    padding: 3px 10px;
+}

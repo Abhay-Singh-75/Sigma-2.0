@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    /* background-image: linear-gradient( 135deg, #69FF97 10%, #00E4FF 100%); */
+    background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* margin: 55px 0px 0px 0px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Task cSS  */
+h1 {
+    text-align: center;
+    /* margin: 20px; */
+}
+
+input {
+    /* background-image: linear-gradient( 135deg, #69FF97 10%, #00E4FF 100%); */
+    background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+
+    width: 25vw;
+    height: 7vh;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0px 15px;
+    font-size: x-large;
+    font-weight: 15px;
+}
+
+input::placeholder {
+    font-size: large;
+    /* font-weight: bold; */
+    color: rgb(113, 113, 113);
+    color: rgb(28, 25, 25);
+}
+
+.Add {
+    width: 8vw;
+    height: 7vh;
+    border: none;
+    background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
+    border-radius: 13px;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    cursor: pointer;
+}
+
+.add-task {
+    margin: 18px;
+}
+
+/* Task Added CSS */
+
+/* .task-div {
+    border: 2px solid black;
+    width: 33vw;
+    border-radius: 7px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.li {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid black;
+    width: 37vw;
+    height: 7vh;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 12px;
+}
+
+.btn {
+    font-size: 2rem;
+    border: none;
+    margin: 12px;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit {
+    /* color: rgb(36, 199, 36); */
+    color: #0ffc0b;
+}
+
+.delete {
+    /* color: red; */
+    color: #C3272A;
+}

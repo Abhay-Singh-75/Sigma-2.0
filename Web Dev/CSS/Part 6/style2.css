@@ -1,0 +1,38 @@
+div{
+    background-color: greenyellow;
+    height: 100px;
+    width: 200px;
+    
+    /* animation-name: animate ;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    /* ANIMATION SHORTHAND */
+    /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-direction */
+
+    animation: animate 3s ease-in-out 0s infinite alternate;
+
+
+}
+
+
+
+
+@keyframes animate {
+    from{
+        font-size: 20px;
+        background-color: red;
+        width: 200px;
+
+    }
+    to{
+        font-size: 40px;
+        background-color: yellow;
+        width: 400px;
+        height: 300px;
+        border-radius: 15px;
+    }
+}

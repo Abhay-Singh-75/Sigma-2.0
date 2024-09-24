@@ -1,0 +1,57 @@
+
+
+
+h2{
+    color: brown;
+}
+
+span{
+    color: brown;
+}
+
+img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.card   {
+    border: 4px solid black;
+    border-radius: 15px;
+    width: 490px;
+    height: 600px;
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+p{
+    text-align: justify;
+    margin: 10px;
+}
+
+h4{
+    text-align: end;
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+/* media Queries */
+
+@media (min-width: 350px) and (max-width: 950px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}

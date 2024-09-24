@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.Box{
+    width: 100px;
+    height: 100px;
+    border: 7px solid black;
+    border-radius: 28px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin: 3px 20px 0% 20px;
+}
+
+.yellow{
+    background-color: yellow;
+    margin: 15px;
+}
+
+.orange{
+    background-color: orange;
+    margin: 15px;
+}
+
+.green{
+    background-color: green;
+    margin: 15px;
+}
+
+.red{
+    background-color: red;
+    margin: 15px;
+}
+
+.flash{
+    background-color: whitesmoke;
+}
+
+.user-flash{
+    background-color: lightgreen;
+}
+
+.false-optn{
+    background-color: red;
+}
+

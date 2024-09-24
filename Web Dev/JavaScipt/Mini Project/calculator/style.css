@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(197, 197, 197, 0.327);
+}
+
+.calculator{
+    border: 5px solid rgb(72, 69, 69);
+    border-radius: 10px;
+    padding: 28px;
+    height: 355px;
+    
+}
+
+.display{
+    text-align: right;
+    border: none;
+    width: 200px;
+    height: 23px;
+    padding: 18px;
+    margin: 5px;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.display::placeholder{
+    color: black;
+    
+}
+
+button{
+    cursor: pointer;
+    margin: 7px;
+    width: 37px;
+    height: 37px;
+    border: none;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: blaack;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.equalBtn{
+    background-color: rgba(255, 105, 36, 0.931);
+}
+
+.operator{
+    background-color: rgba(163, 163, 163, 0.436);
+}
+
