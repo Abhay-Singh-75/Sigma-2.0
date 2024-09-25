@@ -1,3 +1,4 @@
+// Largest in array
 
 public class programFour {
     
@@ -8,7 +9,7 @@ public class programFour {
     }
 
     public static int getLargest(int num[]){
-        int largest = Integer.MIN_VALUE;
+        int largest = Integer.MIN_VALUE;  // It gives minimum value which is: -infinity
 
         for(int i=0; i<num.length; i++){
 
